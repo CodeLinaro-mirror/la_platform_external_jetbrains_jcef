@@ -9,9 +9,20 @@ third_party {
     type: "Git"
     value: "https://github.com/JetBrains/jcef"
     version: "3847f623c93d8e6738656a558c071d7c9c50665e"
-    closest_version: "closest-tag"
+    closest_version: "n/a"
+  }
+  identifier {
+    type: "Git"
+    value: "https://github.com/chromiumembedded/java-cef"
+    version: "7000daae4d89480a64cf80f18ff6400f371ee36f"
+    closest_version: "n/a"
+  }
+  identifier {
+    type: "Maven"
+    value: "me.friwi:jcefmaven"
+    closest_version: "108.4.13"
   }
   version: "3847f623c93d8e6738656a558c071d7c9c50665e"
-  last_upgrade_date { year: 2023 month: 8 day: 31 }
+  last_upgrade_date { year: 2023 month: 9 day: 6 }
   license_type: NOTICE
 }
